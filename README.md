@@ -1,15 +1,11 @@
 # dMicEA
-We have developed user frendly image anaysis command consisted of known deeplearning tools and image analysis tools.
+We have developed a user-friendly image analysis command that consists of known deep learning tools and image analysis tools.
 
-Download dMicEA folder from github.
-Then,
-in anaconda env,
+To download the dMicEA folder from GitHub and set up the environment in Anaconda, perform the following steps:
 
-Please perform below command in Linux/Ubuntu.
-conda env create -n dMicEA_env -f dMicEA_env.yml
-conda activate dMicEA_env
-python setup.py develop![image](https://user-images.githubusercontent.com/108437344/210705284-e479ffce-dff7-4ea9-8ddf-f1317f7498dd.png)
-
-After activate the env, you can use dMicEA command in terminal.
-dMicEA --help
-you can find all command for image analysis.
+In a terminal window, navigate to the location where you want to download the dMicEA folder.
+Run the command: git clone https://github.com/[username]/dMicEA.git (replace [username] with the appropriate GitHub username).
+Run the command: conda env create -n dMicEA_env -f dMicEA_env.yml
+Run the command: conda activate dMicEA_env
+Run the command: python setup.py develop
+Once the environment is activated, you can use the dMicEA command in the terminal. To see a list of available options, run the command dMicEA --help. This will display all of the available commands for image analysis.
