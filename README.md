@@ -5,7 +5,7 @@ To download the dMicEA folder from GitHub and set up the environment in Anaconda
 
 In a terminal window, navigate to the location where you want to download the dMicEA folder.
 
-Run the command: git clone https://github.com/hirohshi/dMicEA.git (replace [username] with the appropriate GitHub username).
+Run the command: git clone [https://github.com/hirohshi/dMicEA.git](https://github.com/hirohishi/dMiCEA.git).
 
 Run the command: conda env create -n dMicEA_env -f dMicEA_env.yml
 
