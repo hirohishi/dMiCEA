@@ -123,7 +123,7 @@ def analysis(nd2_file, csv_file, dia_spot, gauss, out_path, pixel_size, roi_size
         df_1 = df_1.reset_index(drop=True)
         df_posi_1 = df_1.loc[:, ['y', 'x']]
         df_int_1 = func_intensity(df_posi_1.values, image_1)
-        df_1['r_snap'] = df_int_1['r_mass']
+        df_1['r_snap'] = df_int_1['r_mass'].values
         #print (df_1)
 
         #Detect the center of spots in the MCP image.
@@ -132,7 +132,7 @@ def analysis(nd2_file, csv_file, dia_spot, gauss, out_path, pixel_size, roi_size
         df_2 = df_2.reset_index(drop=True)
         df_posi_2 = df_2.loc[:, ['y', 'x']]
         df_int_2 = func_intensity(df_posi_2.values, image_2)
-        df_2['r_mcp'] = df_int_2['r_mass']
+        df_2['r_mcp'] = df_int_2['r_mass'].values
         #print (df_2)
 
         #Detect the center of spots in the mTetR image.
@@ -141,7 +141,7 @@ def analysis(nd2_file, csv_file, dia_spot, gauss, out_path, pixel_size, roi_size
         df_3 = df_3.reset_index(drop=True)
         df_posi_3 = df_3.loc[:, ['y', 'x']]
         df_int_3 = func_intensity(df_posi_3.values, image_3)
-        df_3['r_tetr'] = df_int_3['r_mass']
+        df_3['r_tetr'] = df_int_3['r_mass'].values
         #print (df_int_3)
         #print (df_3)
 
