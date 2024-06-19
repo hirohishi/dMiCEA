@@ -1,15 +1,59 @@
 # dMicEA
-We have developed a user-friendly image analysis command that consists of known deep learning tools and image analysis tools.
 
-To download the dMicEA folder from GitHub and set up the environment in Anaconda, perform the following steps:
+Welcome to **dMicEA**, a user-friendly image analysis tool that integrates advanced deep learning and image analysis techniques.
 
-In a terminal window, navigate to the location where you want to download the dMicEA folder.
+## Getting Started
 
-Run the command: git clone [https://github.com/hirohshi/dMicEA.git](https://github.com/hirohishi/dMiCEA.git).
-Run the command: conda env create -n dMicEA_env -f dMicEA_env.yml
-Run the command: conda activate dMicEA_env
-Run the command: python setup.py develop
+To set up dMicEA, follow these steps:
 
-Once the environment is activated, you can use the dMicEA command in the terminal. 
-To see a list of available options, run the command dMicEA --help. 
-This will display all of the available commands for image analysis.
+### 1. Clone the Repository
+
+First, download the dMicEA folder from GitHub. Open a terminal window and navigate to the directory where you want to save the folder.
+
+```sh
+git clone https://github.com/hirohshi/dMicEA.git
+```
+
+### 2. Set Up the Environment
+
+Next, set up the Anaconda environment using the provided environment file.
+
+```sh
+conda env create -n dMicEA_env -f dMicEA_env.yml
+```
+
+### 3. Activate the Environment
+
+Activate the newly created environment.
+
+```sh
+conda activate dMicEA_env
+```
+
+### 4. Install dMicEA
+
+Finally, install dMicEA using the `setup.py` script.
+
+```sh
+python setup.py develop
+```
+
+## Usage
+
+Once the environment is activated, you can use the `dMicEA` command in the terminal.
+
+### Display Available Options
+
+To see a list of available commands for image analysis, run:
+
+```sh
+dMicEA --help
+```
+
+This will display all of the available options and commands.
+
+---
+
+For more detailed information, please refer to the [dMicEA GitHub repository](https://github.com/hirohshi/dMicEA.git).
+
+Happy analyzing!
